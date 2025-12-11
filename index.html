@@ -1,1 +1,54 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<!--
+🤔 You look like a curious human.
+💁 That’s good, go on!
+👉 Or contact me to exchange and make.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello J&uuml;rg</title>
+    <style>
+        /* Ensure the body takes up the full screen height */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        /* Flexbox container for perfect centering */
+        .container {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center;     /* Centers vertically */
+            height: 100vh;           /* 100% of the viewport height */
+            background-color: #1a1a1a; /* Dark background for contrast */
+        }
+
+        /* Typography styling */
+        .large-text {
+            font-size: 8rem;         /* Very large text */
+            font-weight: 700;        /* Bold weight */
+            color: #ffffff;          /* White text */
+            text-transform: uppercase; 
+            letter-spacing: -2px;    /* Tighten spacing for a modern look */
+            text-align: center;      /* Center text if screen is small/text wraps */
+        }
+
+        /* Optional: Responsive adjustment for mobile screens */
+        @media (max-width: 600px) {
+            .large-text {
+                font-size: 4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="large-text">Hello J&uuml;rg</h1>
+    </div>
+
+</body>
+</html>
